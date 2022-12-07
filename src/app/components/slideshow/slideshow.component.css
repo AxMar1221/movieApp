@@ -1,0 +1,15 @@
+.swiper-container {
+  width: 100%;
+  height: 330px;
+  color: rgb(255, 255, 255);
+}
+.swiper-button-next, .swiper-button-prev {
+  color: rgb(255, 255, 255);
+}
+.movie-desc {
+  background-color: rgb(1, 1, 1, 0.5);
+  bottom: 0;
+  padding: 15px 30px;
+  position: absolute;
+  width: 100%;
+}
