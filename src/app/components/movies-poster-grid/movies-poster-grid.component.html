@@ -5,7 +5,13 @@
         <div>
             <h3>{{ movie.title }}</h3>
             <div class="col-10 text-white">
-                *****
+                <div class="col-10 text-white">
+                    <star-rating    [value]="movie.vote_average"
+                                    [totalstars]="10"
+                                    checkedcolor="yellow" uncheckedcolor="grey" size="10px"
+                                    [readonly]="false">
+                    </star-rating>
+                </div>
             </div>
             <div class="col-2 text-white">
                 {{ movie.vote_average | number:'1.1-2' }}

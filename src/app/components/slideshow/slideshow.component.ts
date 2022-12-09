@@ -19,6 +19,9 @@ export class SlideshowComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.mySwiper = new Swiper( '.swiper-container', {
     loop: true,
+    autoplay: {
+      delay: 2500
+    }
     });
   }
 
