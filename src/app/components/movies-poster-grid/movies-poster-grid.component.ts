@@ -13,9 +13,8 @@ export class MoviesPosterGridComponent implements OnInit {
   movies: Movie[] = [];
 
   constructor() {}
-  
+
   ngOnInit(): void {
-    console.log(this.movies)
   }
 
 }
